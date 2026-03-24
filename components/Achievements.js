@@ -3,7 +3,7 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import Link from "next/link";
-import { achievements } from "@/data/achievements";
+import { achievements } from "@/data/achievements25";
 
 export default function AchievementsTimeline() {
   const timelineRef = useRef(null);

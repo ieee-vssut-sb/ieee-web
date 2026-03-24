@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { achievements } from "@/data/achievements";
+import { achievements } from "@/data/achievements25";
 
 export async function generateStaticParams() {
   return achievements.map((item) => ({
