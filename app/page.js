@@ -327,7 +327,7 @@ const HomePage = () => {
           Achievements
         </h2>
         {/* Achievements Component with padding */}
-        <div className="px-4 sm:px-8 lg:px-20 mt-10">
+        <div className="px-4 sm:px-8 lg:px-20 mt-5">
           <Achievements />
         </div>
       </section>
