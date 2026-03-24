@@ -7,7 +7,7 @@ export default function AllAchievementsPage() {
       <div className="max-w-7xl mx-auto">
         {/* Header Section */}
         <div className="mb-16">
-          <Link href="/" className="text-gray-500 hover:text-[#00629B] flex items-center gap-2 mb-6 transition-colors font-medium">
+          <Link href="/#achievements" className="text-gray-500 hover:text-[#00629B] flex items-center gap-2 mb-6 transition-colors font-medium">
             ← Back to Home
           </Link>
           <h1 className="text-5xl font-extrabold text-[#00629B] tracking-tight">
