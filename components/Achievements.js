@@ -28,7 +28,6 @@ export default function AchievementsTimeline() {
     };
   }, []);
 
-
   const handleMouseEnter = () => {
     animationRef.current?.pause();
   };
@@ -47,22 +46,31 @@ export default function AchievementsTimeline() {
       >
         {[...achievements, ...achievements].map((item, index) => (
           <Link
-            key={`${item.id}-${index}`}  
-            href={`/achievement/${item.id}`} 
-            className="flex-shrink-0 w-72"
+            key={`${item.id}-${index}`}
+            href={`/achievement/${item.id}`}
+            className="flex-shrink-0 w-80 group" // Increased width slightly for longer titles
           >
-            <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:scale-105 transition-transform duration-300 cursor-pointer">
-              
-              <img
-                src={item.image}
-                alt={item.title}
-                className="w-full h-64 object-cover"
-              />
+            <div className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer h-full">
+              {/* Image Container */}
+              <div className="relative h-64 overflow-hidden">
+                <img
+                  src={item.image}
+                  alt={item.title}
+                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                />
+                {/* Subtle overlay on hover */}
+                <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300" />
+              </div>
 
-              <p className="text-center font-semibold py-3 px-2">
-                {item.title}
-              </p>
+              {/* Text Content Area */}
+              <div className="p-5 flex flex-col justify-center min-h-[90px] bg-white">
+                <h3 className="text-center text-gray-800 font-bold text-lg leading-tight line-clamp-2 group-hover:text-[#00629B] transition-colors">
+                  {item.title}
+                </h3>
 
+                {/* Optional: Add a small decorative line for that IEEE look */}
+                <div className="w-8 h-1 bg-[#00629B] mx-auto mt-3 rounded-full opacity-0 group-hover:opacity-100 transition-opacity" />
+              </div>
             </div>
           </Link>
         ))}
