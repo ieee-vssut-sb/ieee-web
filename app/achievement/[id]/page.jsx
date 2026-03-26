@@ -22,7 +22,7 @@ export default async function AchievementDetail({ params }) {
   return (
     <div className="max-w-6xl mx-auto px-6 py-16">
       <Link
-        href="/achievements"
+        href="/allAchievements"
         className="inline-flex items-center gap-2 px-6 py-3 bg-white/80 backdrop-blur-md border border-gray-200 text-gray-700 font-semibold rounded-full shadow-sm hover:shadow-md hover:border-[#00629B] hover:text-[#00629B] transition-all duration-300 mb-12"
       >
         <svg

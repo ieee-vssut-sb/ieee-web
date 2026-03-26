@@ -13,12 +13,11 @@ export default function AchievementsTimeline() {
     const timeline = timelineRef.current;
     if (!timeline) return;
 
-    // Calculate width for infinite scroll
     const width = timeline.scrollWidth / 2;
 
     animationRef.current = gsap.to(timeline, {
       x: `-${width}px`,
-      duration: 40,
+      duration: 45,
       ease: "linear",
       repeat: -1,
     });
@@ -35,7 +34,7 @@ export default function AchievementsTimeline() {
     <section className="overflow-hidden pb-2.5">
       <div className="max-w-10xl mx-auto px-0.5 mb-6 flex items-center justify-center md:justify-end">
         <Link
-          href="/achievements"
+          href="/allAchievements"
           className="px-6 py-2.5 bg-[#00629B] text-white rounded-full font-semibold hover:bg-[#004a75] transition-all flex items-center gap-1 shadow-lg hover:shadow-xl active:scale-95 left"
         >
           View All
@@ -61,12 +60,19 @@ export default function AchievementsTimeline() {
         className="flex space-x-8 px-6"
         onMouseEnter={handleMouseEnter}
         onMouseLeave={handleMouseLeave}
+        style={{ opacity: 1, willChange: "transform" }}
       >
         {[...achievements, ...achievements].map((item, index) => (
           <Link
             key={`${item.id}-${index}`}
             href={`/achievement/${item.id}`}
             className="flex-shrink-0 w-80 group"
+
+            onClick={() => {
+              if (animationRef.current) {
+                animationRef.current.pause();
+              }
+            }}
           >
             <div className="bg-white rounded-2xl shadow-md border border-gray-100 overflow-hidden transition-all duration-300 hover:shadow-2xl hover:-translate-y-2 cursor-pointer h-full">
               <div className="relative h-72 overflow-hidden">

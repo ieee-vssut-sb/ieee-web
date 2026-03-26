@@ -9,7 +9,7 @@ export const achievements = [
   {
     id: "2",
     images: ["/assets/achievement25_3.jpg"],
-    title: "EYE-Q Project",
+    title: "EYE-Q Project (IEEE YESIST 2025 Finalist)",
     description:
       "(Selected as Finalist for IEEE YESIST 12 2025, Malaysia)\n\nA smart eye-care solution designed to monitor intraocular pressure, blink rate, and blue light exposure for early detection of eye strain and glaucoma risks. It integrates ultrasonic sensing, precise signal processing, and real-time data visualization.\n\nTeam Members:\n• Debabrata Sahoo\n• Ratnakar Sahoo\n• Priyadarshini Mohapatra\n• Rajasmita Senapati",
   },
@@ -31,25 +31,29 @@ export const achievements = [
     id: "5",
     images: ["/assets/achievement25_7.jpg"],
     title: "National Student’s Space Challenge 2025",
-    description: "Event: Case Study Competition\nVenue: IIT Kharagpur\nDates: November 07-09, 2025\n\nAchievement:\nTeam Galatrix secured 1st Runners-Up.\n\nTeam Members:\n• Ratnakar Sahoo\n• Priyadarshini Mohapatra\n• Lipika Ray",
+    description:
+      "Event: Case Study Competition\nVenue: IIT Kharagpur\nDates: November 07-09, 2025\n\nAchievement:\nTeam Galatrix secured 1st Runners-Up.\n\nTeam Members:\n• Ratnakar Sahoo\n• Priyadarshini Mohapatra\n• Lipika Ray",
   },
   {
     id: "6",
     images: ["/assets/achievement25_8.jpg"],
     title: "NSSC ’25 Finalists – Paper Presentation",
-    description: "Two teams from IEEE VSSUT SB were selected as finalists:\n\nTeam Nova Nexus:\n• Ashish Ayusman\n• Hiraish Kumar\n• Khushi Jain\n\nTeam OrbitX:\n• Zeeshan Firoz\n• Anil Kumar Senapati\n• Muskaan Singh",
+    description:
+      "Two teams from IEEE VSSUT SB were selected as finalists:\n\nTeam Nova Nexus:\n• Ashish Ayusman\n• Hiraish Kumar\n• Khushi Jain\n\nTeam OrbitX:\n• Zeeshan Firoz\n• Anil Kumar Senapati\n• Muskaan Singh",
   },
   {
     id: "7",
     images: ["/assets/achievement25_9.jpg"],
     title: "NSSC ’25 Finalists – Pitch The Cosmos",
-    description: "NSSC ‘25 FINALISTS in \"Pitch The Cosmos\"\n\nTwo teams from IEEE VSSUT SB were selected as finalists:\n\nTeam Astrovissionaries:\n• Dibya Ranjan Lenka\n• Persis Rout\n• Hari Shah\n\nTeam Orbitronauts:\n• Sohan Kumar Nayak\n• Aditya Sudhanshu Sahu\n• Kiran Nath",
+    description:
+      'NSSC ‘25 FINALISTS in "Pitch The Cosmos"\n\nTwo teams from IEEE VSSUT SB were selected as finalists:\n\nTeam Astrovissionaries:\n• Dibya Ranjan Lenka\n• Persis Rout\n• Hari Shah\n\nTeam Orbitronauts:\n• Sohan Kumar Nayak\n• Aditya Sudhanshu Sahu\n• Kiran Nath',
   },
   {
     id: "8",
     images: ["/assets/achievement25_10.jpg"],
     title: "NSSC ’25 Finalists – Space Quiz",
-    description: "Team Orbitronauts:\no	Dibya Ranjan Lenka\no	Persis Rout\no	B Kishan Dora",
+    description:
+      "Team Orbitronauts:\no	Dibya Ranjan Lenka\no	Persis Rout\no	B Kishan Dora",
   },
   {
     id: "9",
@@ -74,7 +78,7 @@ export const achievements = [
   },
   {
     id: "12",
-    images: ["/assets/achievement25_15.png"],
+    images: ["/assets/achievement25_15.jpg"],
     title: "IEEE IES Industry Conclave 2025",
     description:
       "Venue - Mayfair Lagoon, Bhubaneswar\n Our members were active volunteers of this International Conclave.",
@@ -82,13 +86,21 @@ export const achievements = [
   {
     id: "13",
     images: [
-      "/assets/achievement25_16.png",
-      "/assets/achievement25_17.png",
-      "/assets/achievement25_18.png",
-      "/assets/achievement25_19.png",
-      "/assets/achievement25_20.png",
+      "/assets/achievement25_16.jpg",
+      "/assets/achievement25_17.jpg",
+      "/assets/achievement25_18.jpg",
+      "/assets/achievement25_19.jpg",
+      "/assets/achievement25_20.jpg",
     ],
     title: "Research Publications",
-    description: "Two IEEE VSSUT SB members got their research papers published:\n1. Alok Jiten Rao\n[⮕Read Paper: Springer](https://link.springer.com/article/10.1007/s41870-025-02942-x)\n2. Adyasha Pattanayak\n[⮕Read Paper: WorldCSS](https://www.dpublication.com/conference-proceedings/index.php/worldcss/article/view/1204)\n\nGraduate IEEE member Barsa Panda presented two papers in IEEE international conferences:\n• ELEXCOM-2025\n• IEEE AESPO-2025",
+    description:
+      "Two IEEE VSSUT SB members got their research papers published:\n1. Alok Jiten Rao\n[⮕Read Paper: Springer](https://link.springer.com/article/10.1007/s41870-025-02942-x)\n2. Adyasha Pattanayak\n[⮕Read Paper: WorldCSS](https://www.dpublication.com/conference-proceedings/index.php/worldcss/article/view/1204)\n\nGraduate IEEE member Barsa Panda presented two papers in IEEE international conferences:\n• ELEXCOM-2025\n• IEEE AESPO-2025",
   },
+  {
+    id: "14",
+    images: ["/assets/Achievements4.jpg"],
+    title: "IEEE Best Student Branch Award 2024",
+    description:
+      "IEEE VSSUT Student Branch awarded IEEE Best Student Branch 2024 in Bhubaneswar Section for outstanding technical activities.",
+  }
 ];
