@@ -2,7 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
-
+import Link from "next/link";
 export default function Carousel() {
   const items = [
     {
@@ -103,6 +103,7 @@ export default function Carousel() {
     setActiveIndex((prev) => (prev === items.length - 1 ? 0 : prev + 1));
 
   return (
+    
     <div className="flex flex-col items-center justify-center relative md:py-10">
       <div
         ref={carouselRef}
@@ -151,7 +152,7 @@ export default function Carousel() {
       </div>
 
       {/* Controls */}
-      <div className="flex space-x-4 mt-6 sm:mt-8">
+      <div className="flex gap-2.5 mt-6 sm:mt-8">
         <button
           onClick={prev}
           className="p-2 bg-white rounded-full shadow-md hover:scale-105 transition"
@@ -162,6 +163,28 @@ export default function Carousel() {
             className="w-6 h-6 sm:w-8 sm:h-8"
           />
         </button>
+        <div className="flex mx-auto items-center">
+        <Link
+          href="/pastEvents"
+          className="px-6 py-2.5 bg-[#00629B] text-white rounded-full font-semibold hover:bg-[#004a75] transition-all flex items-center gap-1 shadow-lg hover:shadow-xl active:scale-95 left"
+        >
+          View All
+          {/* <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2.5}
+              d="M14 5l7 7m0 0l-7 7m7-7H3"
+            />
+          </svg> */}
+        </Link>
+      </div>
         <button
           onClick={next}
           className="p-2 bg-white rounded-full shadow-md hover:scale-105 transition"
