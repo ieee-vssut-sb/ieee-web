@@ -1,15 +1,4 @@
 export const events=[
-  // {
-  //   "image": "/assets/ieee_events/innoquest.jpg",
-  //   "date": "9-11 March",
-  //   "title": "AI Workshop by Mr. Kudithi Ganeshrao",
-  //   "description": "This AI Workshop by IEEE VSSUT SB is a 3-day online program focused on building strong fundamentals and practical skills in Artificial Intelligence. Covering Computer Vision, NLP, and Generative AI, it offers hands-on learning guided by an expert, enabling participants to gain industry-relevant knowledge and apply AI concepts effectively.",
-  //   "result": {
-  //     "first": "/assets/ieee_events/innoquest.jpg",
-  //     "second": "/assets/ieee_events/innoquest.jpg",
-  //     "third": "/assets/ieee_events/innoquest.jpg"
-  //   }
-  // },
   {
     "image": "/assets/ieee_events/herizon.jpg",
     "date": "07-03-2026 | 08-03-2026",
@@ -38,9 +27,9 @@ export const events=[
     "title": "Circuit4Good",
     "description": "Circuit4Good is a circuit designing event that blends theoretical knowledge with practical application. It challenges participants to think logically, design efficient systems, and solve real-world problems. The event fosters structured thinking, creativity, and technical clarity, enabling participants to transform ideas into functional circuits while enhancing their engineering and problem-solving skills.",
     "result": {
-      "first": "/assets/ieee_events/innoquest.jpg",
-      "second": "/assets/ieee_events/innoquest.jpg",
-      "third": "/assets/ieee_events/innoquest.jpg"
+      "first": "Team VoltX",
+      "second": "Team Shashtra",
+      "third": "Team Electra X"
     }
   },
   {
@@ -49,9 +38,9 @@ export const events=[
     "title": "Quizoku",
     "description": "Quizõku is an engaging quiz competition organized by IEEE VSSUT SB that tests participants’ knowledge, focus, and quick thinking. It fosters intellectual curiosity and a competitive spirit in a structured environment. Participants analyze, respond, and adapt rapidly, enhancing their awareness and confidence while experiencing the thrill of learning and competition.",
     "result": {
-      "first": "/assets/ieee_events/innoquest.jpg",
-      "second": "/assets/ieee_events/innoquest.jpg",
-      "third": "/assets/ieee_events/innoquest.jpg"
+      "first": "Pratyush Kumar Sahu",
+      "second": "Siddarth Singh",
+      "third": "Manish Kumar Sahoo"
     }
   },
   {
@@ -60,9 +49,9 @@ export const events=[
     "title": "Tech Dibeto",
     "description": "Tech Dibēto is a debate competition organized by IEEE VSSUT SB that sharpens critical thinking and persuasive communication. It provides a platform for participants to present, defend, and challenge ideas with logic and clarity. The event fosters confidence, structured argumentation, and intellectual exchange, encouraging participants to make impactful and convincing contributions.",
     "result": {
-      "first": "/assets/ieee_events/innoquest.jpg",
-      "second": "/assets/ieee_events/innoquest.jpg",
-      "third": "/assets/ieee_events/innoquest.jpg"
+      "first": "Ashlesh Kumar",
+      "second": "Ankur Dasgupta",
+      "third": "Sakshi Mehta"
     }
   },
   {
@@ -71,9 +60,9 @@ export const events=[
     "title": "Kaizen Quest",
     "description": "IDEATHON (Kaizen Quest) is an idea-driven competition that encourages participants to think critically and innovate solutions to complex problems. Organized by IEEE VSSUT SB, it fosters deep thinking, creativity, and logical reasoning. Participants refine raw ideas into practical concepts, enhancing problem-solving skills and promoting innovation through structured discussion and intellectual exploration.",
     "result": {
-      "first": "/assets/ieee_events/innoquest.jpg",
-      "second": "/assets/ieee_events/innoquest.jpg",
-      "third": "/assets/ieee_events/innoquest.jpg"
+      "first": "Sonalika Dash",
+      "second": "Kiran Nath",
+      "third": "Swayangshree Priyadarshini Rath"
     }
   },
   {
@@ -120,17 +109,7 @@ export const events=[
       "third": "Soumya rup Sahoo"
     }
   },
-  // {
-  //   "image": "/assets/ieee_events/innoquest.jpg",
-  //   "date": "20 November",
-  //   "title": "Semiconductor for Tomorrow",
-  //   "description": "“Semiconductor for Tomorrow” is an expert talk organized by IEEE VSSUT SB, focusing on advancements in semiconductor technology and its role in future innovations. The session explores trends like 5G/6G, IoT, and AI, offering valuable insights from an industry expert while enhancing participants’ understanding of modern electronics and technological evolution.",
-  //   "result": {
-  //     "first": "/assets/ieee_events/innoquest.jpg",
-  //     "second": "/assets/ieee_events/innoquest.jpg",
-  //     "third": "/assets/ieee_events/innoquest.jpg"
-  //   }
-  // },
+
   {
     "image": "/assets/ieee_events/binary_battle.jpg",
     "date": "18-10-2025",
@@ -142,17 +121,7 @@ export const events=[
       "third": "Komal Magar"
     }
   },
-  // {
-  //   "image": "/assets/ieee_events/innoquest.jpg",
-  //   "date": "17 October",
-  //   "title": "Workshops by Embesys",
-  //   "description": "IEEE Tech Summit 2025 Workshop was an intensive session on 5G communication and SDR applications, organized by IEEE VSSUT SB with Embesys. Led by an industry expert, it combined theory with hands-on training, enabling participants to gain practical insights, enhance technical skills, and understand real-world applications of modern communication technologies.",
-  //   "result": {
-  //     "first": "/assets/ieee_events/innoquest.jpg",
-  //     "second": "/assets/ieee_events/innoquest.jpg",
-  //     "third": "/assets/ieee_events/innoquest.jpg"
-  //   }
-  // },
+ 
   {
     "image": "/assets/ieee_events/mind_maze.jpg",
     "date": "15-10-2025",
@@ -254,29 +223,4 @@ export const events=[
   //   }
   // },
   
-  
-  // {
-  //   "image": "/assets/ieee_events/innoquest.jpg",
-  //   "date": "11 October",
-  //   "title": "AI Workshop by Abdul Hannan",
-  //   "description": "",
-  //   "result": {
-  //     "first": "/assets/ieee_events/innoquest.jpg",
-  //     "second": "/assets/ieee_events/innoquest.jpg",
-  //     "third": "/assets/ieee_events/innoquest.jpg"
-  //   }
-  // },
-  
-  
-  // {
-  //   "image": "/assets/ieee_events/innoquest.jpg",
-  //   "date": "October",
-  //   "title": "RoboAI",
-  //   "description": "",
-  //   "result": {
-  //     "first": "/assets/ieee_events/innoquest.jpg",
-  //     "second": "/assets/ieee_events/innoquest.jpg",
-  //     "third": "/assets/ieee_events/innoquest.jpg"
-  //   }
-  // }
 ]

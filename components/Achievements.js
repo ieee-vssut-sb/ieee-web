@@ -32,10 +32,10 @@ export default function AchievementsTimeline() {
 
   return (
     <section className="overflow-hidden pb-2.5">
-      <div className="max-w-10xl mx-auto px-0.5 mb-6 flex items-center justify-center md:justify-end">
+      <div className="max-w-10xl mx-auto p-1 mb-6 flex items-center justify-center md:justify-end">
         <Link
           href="/allAchievements"
-          className="px-6 py-2.5 bg-[#00629B] text-white rounded-full font-semibold hover:bg-[#004a75] transition-all flex items-center gap-1 shadow-lg hover:shadow-xl active:scale-95 left"
+          className="flex items-center h-11.5 gap-2 px-6 border border-blue-800 rounded-full text-gray-900 transition duration-300 hover:bg-blue-950 hover:text-white text-xl font-medium hover:scale-105 active:scale-95"
         >
           View All
           <svg

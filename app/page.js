@@ -4,6 +4,7 @@ import React, { useRef } from "react";
 import Achievements from "@/components/Achievements";
 import PastEvents from "@/components/PastEvents";
 import ContactUs from "@/components/ContactUs";
+import UpcomingEvent from "@/components/UpcomingEvent";
 import Link from "next/link";
 
 import gsap from "gsap";
@@ -334,7 +335,7 @@ const HomePage = () => {
       {/* Upcoming Events */}
       <section className="py-15 px-4 sm:px-8 lg:px-20" id="events">
         {/* Heading */}
-        <h2 className="text-center text-4xl sm:text-3xl md:text-5xl mt-10 text-[#00629B] upcoming">
+        <h2 className="text-center text-4xl sm:text-3xl md:text-5xl mt-10 text-[#00629B]">
           Upcoming Events
         </h2>
 

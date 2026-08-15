@@ -71,7 +71,7 @@ export default function SemiconductorsInIndiaPage() {
                   width={1365}
                   height={768}
                   className="w-full h-auto object-cover"
-                  priority
+                  // priority
                 />
               </div>
             </motion.div>
